@@ -1,3 +1,8 @@
+sinkit:
+    resource: "@SinkitBundle/Controller/"
+    type:     annotation
+    prefix:   /sinkit
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
