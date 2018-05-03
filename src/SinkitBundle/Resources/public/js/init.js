@@ -3,7 +3,7 @@
  */
 /* global $ */
 
-var webSocket = WS.connect("ws://sinkit.abendstille.at/socket/");
+var webSocket = WS.connect("wss://sinkit.abendstille.at/socket/");
 var publishDataStructure;
 var subscriber;
 var ourBelovedDataStructure = {
